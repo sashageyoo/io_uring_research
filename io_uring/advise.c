@@ -31,7 +31,7 @@ struct io_madvise {
 int io_madvise_prep(struct io_kiocb *req, const struct io_uring_sqe *sqe)
 {
 #if defined(CONFIG_ADVISE_SYSCALLS) && defined(CONFIG_MMU)
-	struct  *ma = io_kiocb_to_cmd(req, struct );
+	struct io_madvise *ma = io_kiocb_to_cmd(req, struct io_madvise);
 
 	if (sqe->buf_index || sqe->splice_fd_in)
 		return -EINVAL;
@@ -48,10 +48,10 @@ int io_madvise_prep(struct io_kiocb *req, const struct io_uring_sqe *sqe)
 #endif
 }
 
-int (struct io_kiocb *req, unsigned int issue_flags)
+int io_madvise(struct io_kiocb *req, unsigned int issue_flags)
 {
 #if defined(CONFIG_ADVISE_SYSCALLS) && defined(CONFIG_MMU)
-	struct  *ma = io_kiocb_to_cmd(req, struct );
+	struct io_madvise *ma = io_kiocb_to_cmd(req, struct io_madvise);
 	int ret;
 
 	WARN_ON_ONCE(issue_flags & IO_URING_F_NONBLOCK);
