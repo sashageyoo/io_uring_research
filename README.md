@@ -3,10 +3,11 @@ The current OS assignment covers large responsiblity, to fully reverse engineer 
 
 As a group assignment, only a member representative may take the assignment. Which the forked repo will be created in his own personal space. This repo should be shared among all members such that they all have write access. At most the group consist of 4 students, not more. More means your group won't be recognized, be wary.
 
-[Task 1](/source_information.md)
-[Task 2](#function_dependency)
-[Task 3](#data_structure)
-[Task 4](#function_documentation)
+#Link to each task
+-[Task 1](/source_information.md)
+-[Task 2](/function_dependency.md)
+-[Task 3](/data_structure.md)
+-[Task 4](/function_documentation.md)
 
 ## Team Members
 - Member A
