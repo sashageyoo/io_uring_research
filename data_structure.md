@@ -6,7 +6,7 @@ Structure name | Defined in | Attributes | Caller Functions Source | source call
 io_ev_fd       | io_uring/eventfd.c | eventfd_ctx, uint, uint, refcount_t, atomic_t, rcu_head | io_eventfd_free | io_uring/eventfd.c | local variable
 | | | | io_eventfd_put | io_uring/eventfd.c | function parameter
 | | | | io_eventfd_do_signal | io_uring/eventfd.c | local variable, function parameter
-| | | | __io_eventfd_signal | io_uring/eventfd.c  function parameter
+| | | | __io_eventfd_signal | io_uring/eventfd.c | function parameter
 | | | | io_eventfd_grab | io_uring/eventfd.c | return value, local variable
 | | | | io_eventfd_signal | io_uring/eventfd.c | local variable 
 | | | | io_eventfd_flush_signal | io_uring/eventfd.c | local variable

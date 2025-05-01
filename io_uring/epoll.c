@@ -48,6 +48,10 @@ int io_epoll_ctl_prep(struct io_kiocb *req, const struct io_uring_sqe *sqe)
 	return 0;
 }
 
+/**
+* prepare io_epoll reference, then start the eventpoll in non-blocking mode according
+* to the value passed on io_kiocdb
+*/
 int io_epoll_ctl(struct io_kiocb *req, unsigned int issue_flags)
 {
 	struct io_epoll *ie = io_kiocb_to_cmd(req, struct io_epoll);
