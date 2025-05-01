@@ -13,4 +13,5 @@ io_ev_fd       | io_uring/eventfd.c | eventfd_ctx, uint, uint, refcount_t, atomi
 | | | | io_eventfd_register | io_uring/eventfd.c | local variable
 | | | | io_eventfd_unregister | io_uring/eventfd.c | function parameter
 
-Continue until all data structures documented properly
+If the following row value in a column is missing, assume the value is the same with the previous row in the same column. 
+Continue until all data structures documented properly.
