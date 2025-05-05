@@ -3,7 +3,10 @@ The current OS assignment covers large responsiblity, to fully reverse engineer 
 
 As a group assignment, only a member representative may take the assignment. Please be cautious in case more than a member take the assignment, penalty will be given to this group. Which the forked repo will be created in his own personal space. This repo should be shared among all members such that they all have write access. At most the group consist of 4 students, not more. More means your group won't be recognized, be wary.
 
-# Link to each task
+## Evaluation Scheme
+Score is mainly calculated from individual contributions made to the commit. There is no team score. For starter this assignment is made team due to the sheer amount of works. Therefore at the minimum, a member must attain one fourth of total completion to gain full score. Only contributions made to the commit are counted.
+
+## Link to each task
 - [Task 1](/source_information.md)
 - [Task 2](/function_dependency.md)
 - [Task 3](/data_structure.md)
